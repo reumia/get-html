@@ -1,0 +1,20 @@
+{
+  "name": "get-html",
+  "version": "1.0.10",
+  "description": "get html dist from JavaScript Parameters",
+  "main": "index.js",
+  "repository": {
+    "url": ""
+  },
+  "author": "JHS",
+  "license": "ISC",
+  "bin": {
+    "get-html": "./bin/get-html.js"
+  },
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "liftoff": "^2.2.1",
+    "minimist": "^1.2.0",
+    "phantom": "^2.0.10"
+  }
+}
