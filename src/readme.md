@@ -9,7 +9,15 @@ get-html
 
 ## use 
 
-    get-html -f 파일명 -p "파라미터, 파라미터2"
+    get-html -f 파일명 -p "파라미터, 파라미터2 ..."
+
+## dist
+
+	> get-html -f index.html -p "foo, bar"
+	
+	dist_index_foo.html
+	dist_index_bar.html
+
 
 ## description
 
